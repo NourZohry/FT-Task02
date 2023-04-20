@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'inter';
+    color: white;
+    height: 100%;
+    background-color: #a1c3ff;
+}
+
+p {
+    font-size: 14px;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter-ExtraBold.ttf');
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'inter';
+    src: url('../assets/fonts/Inter-Regular.ttf');
+    font-weight: normal;
+}
+
+/* Generic */
+.CM { /* Center/Margin */
+    margin:0 20%;
+}
+
+/* Navbar */
+.navbar-wrapper {
+    background-color: #3474e6;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-weight: bold;
+}
+
+.nav-left .nav-item {
+    margin-left: 13px;
+}
+
+.nav-right .nav-item {
+    margin-left: 13px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* First Section */
+.first-section {
+    background-color: #2151cc;
+    padding-top: 20px;
+}
+
+.fast-track-description {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.fast-track-title {
+    font-size: 30px;
+}
+
+.fast-track-paragraph {
+    margin-top: 13px;
+    margin-bottom: 90px;
+}
+
+.itworx-logo {
+    /* height: 95px; */
+    height: 7vw;
+}
+
+
+/* Second Section */
+
+.second-section {
+    /* background-color: #a1c3ff; */
+    padding-top: 13px;
+    height: 100%;
+}
+
+.flex-squares-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 11px;
+}
+
+.flex-square-wrapper {
+    background-color: #2151cc;
+    width: 259px;
+    /* height: 152px; */
+    height: 100%;
+    min-height: 142px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 2px 2px #666);
+}
+
+.flex-square {
+    margin: 20px 12px 10px 12px;
+}
+
+.flex-square p {
+    margin-top: 10px;
+}
+
+.flex-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-box-title {
+    font-size: 20px;    
+}
+
